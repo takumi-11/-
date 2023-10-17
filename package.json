@@ -10,6 +10,8 @@
     "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json}'"
   },
   "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.8.3",
+    "@ffmpeg/util": "^0.12.1",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
@@ -22,6 +24,7 @@
     "eslint": "latest",
     "eslint-config-next": "latest",
     "eslint-config-prettier": "^9.0.0",
+    "ffmpeg": "link:@types/@ffmpeg/ffmpeg",
     "postcss": "latest",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.4",
